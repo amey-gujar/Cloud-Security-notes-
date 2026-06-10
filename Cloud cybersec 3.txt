@@ -1,0 +1,89 @@
+THE SECURITY LIFECYCLE
+DevSecOps is a culture that consists of guidelines, best practices, and tools that development, operation, and security teams use to collaborate.
+The software development lifecycle is a process for developing, testing, and monitoring software.
+
+DevSecOps culture also reinforces the security concept of shifting left.
+To shift left means security checks and practices are implemented at the beginning and throughout each phase of the software development lifecycle.
+
+WATERFALL workflow:
+-The first step is to establish project requirements.
+-The second step is to design the software.
+-In the third step, the team develops the software.
+-The fourth step is to test the code.
+-The fifth step is to release the project.
+-Lastly, the sixth step is to conduct maintenance for any issues that arise post-deployment.
+
+ drawback is that if the test step finds any issues that the development team need to address,then the waterfall process comes to a stop and other teams on the project have to revisit their step, like the design and develop steps.
+
+A second drawback is that, when one team is blocked from continuing their step, then the project can’t move forward as planned and the team may not complete the project on time.
+
+
+A software pipeline is a process that uses automation and tools to facilitate movement through each phase of the software development lifecycle.
+
+ most commonly applied pipeline methodology: the continuous integration and continuous delivery, also known as CI/CD pipeline.
+
+CI/CD is a process DevSecOps teams use to create software and automate updates.
+The first phase, CI, is where developers continuously create and update code that’s uploaded into a shared repository.
+The second phase, CD, actually has two meanings, the first being continuous delivery.Continuous delivery standardizes the continuous release of software builds to a staging or testing environment.
+
+ continuous deployment automatically deploys builds into a production environment in real time.
+
+ CI/CD pipeline has four key stages: source, build, test, and deploy.
+
+>different vulnerabilities of the software supply chain and how threat actors might target it.
+-The people involved in the supply chain are one of the vulnerabilities susceptible to attacks
+-vulnerabilities in the supply chain are an organization’s processes and policies
+-Technology and third-party dependencies also open up your supply chain to attacks
+
+>here are several ways to secure the supply chain to harden your security.
+-Security hardening is the process of strengthening a system to reduce its vulnerabilities and attack surface.
+-Another method is to use a software bill of materials, or SBOM, to address security measures and compliance.
+An SBOM is a machine-readable list of each piece of software and its components involved in the supply chain
+
+ Supply-chain Levels for Software Artifacts  security framework:
+-SLSA improves security by outlining standards and controls that enhance the integrity of artifacts.
+-An artifact is a digital object, like a file or image, that is used in the software development lifecycle.
+-SLSA’s framework revolves around three trust boundaries: build integrity, source integrity, and dependencies.
+.Build integrity involves verifying the software uses the correct, original dependencies.
+.Source integrity tries to ensure the source code actually reflects the developer’s goals and intent and that any code modifications are easily traced and monitored.
+.The dependencies boundary requires that any dependencies used in an artifact are examined using security checks.
+
+Software Delivery Shield
+SDS is a fully managed solution that strengthens software supply chain security in each stage of the software development lifecycle.
+-First, part of SDS
+includes Cloud Workstations, a fully managed service that enables developers to securely access development environments directly from a web browser.
+-Second, SDS automatically generates a software bill of materials (SBOMs), which is a machine-readable list of each piece of software and its components involved in the supply
+chain.
+
+Infrastructure as code, or IaC,
+ is the practice of provisioning and managing infrastructure using reusable scripts. 
+It’s another important tool in the DevSecOps toolkit and replaces the time consuming and expensive manual provisioning of infrastructure.
+-To adopt IaC, organizations develop a configuration file that houses the source code that is used to build their infrastructure.
+-Using code makes it easier to manage and distribute the infrastructure.
+
+Adopting IaC provides lots of benefits.
+-One benefit is that IaC lowers costs because of decreased time, effort, and complexity of using cloud resources.
+-IaC saves costs by freeing developer time to focus on other projects.
+-Using IaC also means IT no longer needs to manually configure their infrastructure.
+
+
+Policy as code, also known as Pac
+, is the use of code to define, manage, and automate policies, rules, and conditions using a high-level programming language.
+-PaC enables developers to provision and manage their policies to meet organizational requirements.
+
+Terraform and IaC
+Terraform is a tool that automates the creation and deployment of infrastructure in the cloud.
+- First, Terraform is a cloud-agnostic tool, which means it's compatible with several cloud platforms. 
+- developers are able to use it to trackresource and code changes throughout deployment.
+-Terraform uses configuration files to store the source code that defines the desired infrastructure. A configuration file is a document that contains the code needed to build the infrastructure.
+-Resources are a building block of configuration files. In the configuration file, resources define what Terraform should create.
+
+GitOps 
+is a framework that applies version control, collaboration, compliance, and CI/CD best practices to automate cloud infrastructure.
+GitOps uses Git, an open-source version control system, to store configuration files.
+The first component of GitOps is that it uses infrastructure as code, or IaC, as a core process for automation.
+GitOps uses continuous integration as a method for submitting pull requests.
+
+several GitOps benefits.
+- first benefit is that GitOps improves efficiency and visibility throughout development.
+-A second benefit is that this central management of application and infrastructure allows developers to easily manage services like container instances, microservices, and other infrastructure parts.
