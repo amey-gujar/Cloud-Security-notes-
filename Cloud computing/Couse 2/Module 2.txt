@@ -1,0 +1,62 @@
+RISK MANAGEMENT FRAMEWORKS
+
+A risk management framework is a set of practices, processes, and technologies that enable an organization to identify, assess, analyze, and manage risk within an organization.
+some examples of industry standard frameworks.:
+>NIST; Cybersecurity Framework 
+>The International Organization for Standardization, or ISO, 27001
+>System and Organization Controls 2, referred to as SOC 2.
+
+
+The NIST CSF helps organizations to better understand, manage, and reduce their cybersecurity risk and protect their networks and data.
+
+The CSF provides an outline of best practices to help an organization decide where to focus their time and money for cybersecurity protection.
+
+The ISO 27001 includes 11 sections, called clauses, numbered “0” through “10”, and an “Annex
+A” that lists specific security controls. Clauses 4 through 10 are considered “mandatory.” An
+organization must meet the requirements of the mandatory sections to be ISO 27001
+compliant.
+
+Cloud Security Alliance Cloud Controls Matrix (CSA CCM): The CSA CCM includes 197 control objectives within 17 domains covering key aspects of cloud technology. The controls framework is a common standard for cloud security assurance and compliance.
+
+The Google SRF is a foundational risk framework that helps secure adoption of Google Cloud by establishing a set of controls and mapping them to Google security solutions. It provides response and recovery capabilities to ensure the flexibility of workloads running on the Google Cloud platform.
+
+Two of the key differences between SOC 2® and ISO 27001 are scope and requirements. The goal of ISO 27001 is to provide a framework for how organizations should manage their data and prove they have a working information security management system in place. SOC 2® focuses more narrowly on an organization proving that it has implemented essential data security controls
+
+The National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF) provides a high-level, risk-based approach to managing cybersecurity, while SOC 2 focuses on proving that a service organization has implemented the necessary security controls.
+
+While HITRUST and SOC 2 are both widely recognized frameworks, HITRUST covers various industry standards, while SOC 2 focuses more on the management of data based on specific principles like security, availability, and confidentiality.
+
+The SAIF provides organizations with considerations to make when implementing AI systems and identifying how to mitigate risks. The SAIF is a set of AI-focused best practices that security professionals can implement throughout the development lifecycles, from infrastructure to data. Organizations should tailor these best practices to meet their own unique business needs.  
+
+GDPR and CPRA put laws into place that grant consumers, as data subjects, certain rights regarding the use of their personal information. 
+An organization must take measures to protect the data that they gather to meet data privacy obligations. This is called data protection.
+
+The GDPR(General Data Protection Regulation) is a comprehensive data protection law that applies to processing of personal data by organizations (known as either “data controllers” or “data processors”). it contains a number of obligations for data controllers and data processors, including a requirement to implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk. Technical measures could include e.g. pseudonymisation and encryption. 
+
+Personal Information Protection and Electronic Documents Act
+(PIPEDA): PIPEDA applies to private sector organizations across Canada that collect, use, or disclose personal information in commercial activity. 
+
+California Privacy Rights Act (CPRA)
+CPRA is the most comprehensive data privacy law among U.S. states, and is modeled after GDPR. CPRA includes things like obligations on service providers and businesses, and rights given to users that allow them to correct inaccurate information.
+
+The NIST Privacy Framework has three parts: core, profiles, and implementation tiers.
+>the core is a set of privacy protection activities and desired outcomes that allows for communicating prioritized privacy protection activities and outcomes across the organization.
+>Second, when using the framework, an organization has to develop one or more profiles for the privacy outcomes it wants to achieve.
+>third, implementation tiers provide context on how an organization views privacy risk and indicates if the organization has adequate processes and resources in place to manage that risk.
+
+The Federal Risk and Authorization Management Program, or FedRAMP, is a government-wide program that provides a consistent approach to security assessment, authorization, and continuous monitoring for cloud products and services in the United States.
+
+HIPAA includes rules that address the use of standardized electronic insurance transactions, privacy, and security. The Privacy Rule focuses on the use and sharing of all PHI, by what are known as “covered entities.”
+
+Covered entities include healthcare providers, healthcare plans, healthcare clearinghouses and their healthcare business associates.
+The Security Rule protects a subset of information covered by the Privacy Rule.
+
+The Payment Card Industry Data Security Standard, or PCI DSS, is a widely accepted set of policies and procedures intended to optimize the security of credit, debit, and cash card transactions.
+PCI DSS also protects cardholders against misuse of their personal information.
+
+The PCI DSS applies to any organization that accepts, transmits, or stores any cardholder data, regardless of the size of the organization, or the number of transactions.
+merchants will fall into one of four merchant levels based on transaction volume over a 12-month period. These levels are set by payment card brands and so may differ from each other.
+>Level 1 applies to merchants that process over six million card transactions per year by any method, including online, in store, or by phone.
+>Level 2 applies to merchants that process one to six million card transactions per year.
+>Level 3 applies to merchants that process 20,000 to 1 million ecommerce transactions per year.
+>level 4 applies to merchants processing fewer than 20,000 ecommerce transactions per year, and any other merchant processing up to 1M card transactions per year.

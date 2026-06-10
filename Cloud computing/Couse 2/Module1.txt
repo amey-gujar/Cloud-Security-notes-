@@ -1,0 +1,65 @@
+Cloud security domains
+
+a security domain is a collection of tightly coupled security practices that address a specific security discipline.
+>Domain 1 focuses on cloud concepts, architecture, and design.
+>Domain 2 consists of cloud data security.
+>Domain 3 addresses cloud platform and infrastructure security.
+>Domain 4 covers cloud application security.
+>Domain 5 investigates cloud security operations.
+>Domain 6 explores legal, risk, and compliance.
+
+Compliance shows stakeholders and users that a system meets the required level of security without requiring them to go through the difficult process of verifying for themselves.
+
+
+A security control is a safeguard designed to reduce specific security risks. Security risk is the total of both the likelihood and the impact of threats on assets.
+The CSP automatically provides some controls for their customers, such as physical security, secure-by-design practices in software development, and strong security defaults on services
+
+The NIST Special Publication (SP) 800-53 is a set of recommended security and privacy controls to help organizations meet compliance requirements. The NIST SP 800-53 provides security controls for implementing the NIST CSF. It also provides more specific security control guidance, especially for FedRAMP compliance than the NIST CSF does.
+NIST SP 800-53 contains 20 different control families. Each family is its own separate category
+or area of focus. There are more than 1,000 total controls represented within these families.
+
+The access control (AC) control family includes controls that determine who has access to assets. These assets include account management, system privileges, and remote access. AC controls can also help manage the level of user access, including when users can access the system.
+
+The audit and accountability (AU) control family includes security controls related to an organization’s audit capabilities. This includes audit policies and procedures, audit logging, audit report generation, and protection of audit information.
+
+The awareness and training (AT) control family includes security training and procedures that are unique to an organization. The main focus of this family is to keep employee cybersecurity education a priority.
+
+Risk is the measure of how much a threat impacts the confidentiality, integrity, and availability of an asset.
+
+
+The PPT framework can help organizations meet their security and compliance goals. In the PPT framework, each piece reinforces the other. Technology is most effective when supported by strong processes and talented people.
+three different components of the PPT framework:
+>People include staff, users, and decision makers that follow processes to use technology safely and effectively.
+>Processes include how people should use new technology, and how it should be created or adapted.
+>Technology not only helps to ensure compliance, it should also meet the organization’s needs.
+
+The SOC 2® framework provides a set of auditing standards and guidelines to ensure that the organization's information security practices and procedures align with the American Institute of Certified Public Accountants’ (AICPA) Trust Services Criteria.
+
+NIST Cybersecurity Framework (CSF),is a voluntary framework that captures standards, guidelines, and best practices to manage cybersecurity-related risk. The framework maps to many existing information security frameworks.
+
+The Health Insurance Portability and Accountability Act of 1996 (HIPAA) set standards in the US to protect individually identifiable health information. HIPAA applies to health plans, most healthcare providers, and healthcare clearinghouses—collectively known as covered entities.
+
+The HITRUST Cybersecurity Framework (CSF)®, is a set of prescriptive controls organizations can use to meet healthcare information security regulations.
+
+The Payment Card Industry Data Security Standard (PCI DSS) is a global standard that provides a baseline of technical and operational requirements designed to protect account data. PCI DSS includes security practices, technologies, processes, and standards for merchants, service providers, and financial institutions.
+
+Security Command Center is Google Cloud's centralized vulnerability and threat reporting service. It evaluates an organization's security and data attack surface, provides asset inventory and discovery, and identifies misconfigurations, vulnerabilities, and threats.
+key features of Security Command Center are threat prevention, threat detection, and attack path simulation.
+Attack path simulation helps pinpoint where and how an organization’s Google Cloud environment could be attacked
+
+cloud security controls are measures that safeguard cloud environments from threats by reducing the likelihood and impact of harmful attacks.
+three types of cybersecurity controls: technical, administrative, and physical.
+>Technical controls include hardware and software used to protect assets.
+>Physical controls include any concrete means of preventing or detecting unauthorized access to facilities, systems, or assets, like gates and locks, or key cards to enter a building.
+>Physical controls include any concrete means of preventing or detecting unauthorized access to facilities, systems, or assets, like gates and locks, or key cards to enter a building.
+
+threat modeling is the process of identifying assets, their vulnerabilities, and how each is exposed to threats.
+
+steps to implement security controls:
+> first step is to identify controls.
+>second step to implement security controls is to develop the implementation plan.
+>third step to implement security controls is to accurately test and validate the security controls your team deployed.
+>fourth step, monitor and maintain the control’s effectiveness.
+> fifth and final step to implement security controls is to record the process in the team’s security plan document.
+
+Control mapping can help you identify control gaps, along with overlap between various control sets. Control mapping is an important part of the risk management and compliance process. By assessing controls and mapping them, risk teams can help save both time and effort.
