@@ -1,0 +1,66 @@
+COMPLINCE LIFECYCLE
+
+four stages of the compliance lifecycle. the four stages of the compliance lifecycle are plan, implement, monitor, and report.
+
+A gap assessment identifies the processes and controls that currently meet the organization’s obligations, and the areas that need to be addressed.
+
+ common types of cloud security controls, including preventative, detective, and corrective controls.
+-Security controls used at the service level are applied to storage, computing, and networking.
+-Security controls used at the workload level are applied to a collection of resources or code that delivers business value, like a customer facing application.
+
+cloud security controls fall into the following groups or domains: 
+> deterrent controls, which serve as a barrier to a potential attacker; 
+>preventative controls, which manage, strengthen and protect assets;
+> corrective controls, which reduce the aftereffects of an attack; and detective controls, which identify or detect an attack.
+
+Mapping controls in the cloud is similar to ensuring the safety features on a product —like a car or an appliance— work.
+To complete the control mapping process:
+-an organization must identify controls;
+- map required controls to cloud security benchmarks,
+- standards, requirements, regulations, and rules;
+- identify the controls not mapped with cloud security benchmark and respective policies
+-perform an assessment of platform and service;
+- and implement guardrails with policy initiatives with native or third-party tooling.
+
+Workloads are the technical solution to a business need or objective, and services support and
+enable these workloads. Organizations can have many workloads composed of services and
+code that link these services.
+
+Common services include:
+>Access control for cloud storage: The ability to restrict access to information stored on the cloud.
+>Customer managed encryption keys (CMEK): Encryption keys that are managed using Cloud Key Management Service (KMS), and enable the user to have greater control over the keys used to encrypt data at rest within supported Google Cloud services
+>Google Kubernetes Engine (GKE): A managed Kubernetes service that you can use to deploy and operate containerized applications at scale using Google's infrastructure
+>MySQL: An open sourced data management service.
+> CloudSQL: A fully-managed database service that helps you set up, maintain, manage, and administer your relational databases on Google Cloud Platform.
+>BigQuery: A fully managed enterprise data warehouse that helps organizations manage and analyze data.
+>Compliance is the process of adhering to internal and external standards and government regulations. To meet compliance requirements, organizations use a compliance lifecycle
+
+An audit tests the cloud environment to ensure controls are in place to protect assets in the cloud. A cloud audit is an assessment of the cloud environment that is usually conducted by a third party. It results in a set of findings that describe how well an organization is meeting the audit standards, and it also provides ideas for improvement.
+
+An audit helps to build trust by establishing accountability for the implementation and operation of a set of intended controls.
+
+There are several different types of auditors. For example, an internal auditor ensures that
+controls are followed by inspecting those controls. Internal audits are often conducted by the
+organization’s Chief Financial Officer (CFO) instead of the IT team. CFOs have this
+responsibility because if the internal audit team also reports to the IT team.
+
+Control inheritance is the process of using controls or compliance certifications and audits that are already provided by a cloud service provider.
+An organization can use inherited controls to meet their control requirements when using a cloud environment, like Google Cloud.
+
+A hierarchy is a system that organizes or ranks things, usually by power or importance.In the cloud, hierarchies help engineers figure out how components are organized inside of their cloud account.
+The purpose of the Google Cloud resource hierarchy is to provide a hierarchy of ownership. Ownership binds a resource to its immediate parent in the hierarchy, and provides inheritance for access control and organization policies.
+
+Compliance is the process of adhering to internal and external standards and government regulations. Simply put, compliance is following rules set by laws, regulations, policy, standards, or guidelines.
+Noncompliance is the failure to follow standards and regulations that are set by internal standards and policy, or external laws and regulations.
+
+
+In IT, a policy is any type of rule, condition, or instruction that governs operations or processes. A policy could be a rule that defines which conditions must be met for code to pass a security checkpoint and be deployed.
+Infrastructure as code, or IaC, is the practice of automating and managing infrastructure using reusable scripts.
+ benefits to deploying IaC,:
+> like consistent configurations, 
+>decreased risk, 
+>application controls are clearly described in code,
+> faster deployment, increased operational efficiency, 
+>financial savings through less manual effort.
+
+Policy as code, or PaC, is the use of code to define, manage, and automate policies, rules, and conditions using a high-level programming language.
